@@ -1,0 +1,39 @@
+html, body          {height:auto}
+h1                  {text-align: center; font-size: 32px; line-height: normal; font-weight: normal; margin: 5px 0 10px 0}
+ol                  {margin: 0 0 0 25px; padding: 0}
+
+.outer              {width:900px; margin: 0px auto; line-height: 20px; font-size: 13px}
+.u                  {text-decoration: underline}
+
+.w16	{width:16px}
+.w32	{width:32px}
+.w60	{width:60px}
+.w80	{width:80px}
+.w100	{width:100px}
+.w120	{width:120px}
+.w130	{width:130px}
+.w150	{width:150px}
+.w160	{width:160px}
+.w170	{width:170px}
+.w180	{width:180px}
+.w200	{width:200px}
+.w250	{width:250px}
+.w300	{width:300px}
+
+.print-btn-bx           {padding: 30px 0 20px 0}
+.print-btn              {display: block; width: 150px; text-align: center; font-size: 13px; font-weight: bold; padding: 6px 10px; margin: 0 auto; cursor: pointer}
+.table                  {width: 100%; border-left: 1px solid #ccc; border-top:1px solid #ccc}
+.table td, .table th    {border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding: 0px 5px}
+.bx1                    {border:1px solid #ccc; width: 45%; float: left; padding: 5px 8px; min-height: 135px;}
+.bx2                    {border:1px solid #ccc; width: 45%; float: right; padding: 5px 8px; min-height: 135px;}
+.lbl                    {display:inline-block; width:70px}
+.lbl1                   {display:inline-block; width:90px}
+
+.page-break             {display: none;}
+
+@media print {
+    h1                  {font-size: 24px; margin: 0 0 10px 0}
+    .outer              {width: auto}
+    .print-btn-bx       {display: none}
+    .page-break         {display: block; page-break-before: always;}
+}
